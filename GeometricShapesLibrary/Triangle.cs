@@ -26,7 +26,7 @@ namespace GeometricShapesLibrary {
 
 
         // Sticky wicket:  How to compute area of triangle?  quad.  doesn't have this ??  So, do we need to write our own method for
-        // the Triangle?  How shall we make an assumption , which one is the base?  
+        // the Triangle?  How shall we make an assumption , which one is the base?   
         // We could change the constructor of the triange . Put "base " into one of the sides parameters  
 
 
