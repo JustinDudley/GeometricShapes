@@ -9,19 +9,11 @@ namespace GeometricShapesLibrary {
         public Square(int sides) : base(sides, sides) {
 
             // don't need to put area ?method? into Square . It's already in parallelogram
-            // don't need to wr
-
 
 
             // difficult style of learning. 
             // can understand 5th grade frustration.
             // Hamilton and the bursar
         }
-
-
-
-
-
-
     }
 }

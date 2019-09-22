@@ -20,26 +20,23 @@ namespace GeometricShapesConsole {
             Console.WriteLine($"tri1: perimeter is {tri1.Perimeter()}");
             // note tri-one   tri1   not "trill.    not el .  The number 1
 
+        }
 
 
-            //
+        static void Main(string[] args) {
 
+            var pgm = new Program(); // creating instance of my program class
+            pgm.Run();
 
 
             // using inheritance to leverage code already written
             // "Derived" class (the class that inherits)
             // vs. base class.
-
             // a class can be BOTH base and derived
 
 
             // i need to figure out the diff. between all the windows that keep popping up in VS.  Look at their titles.  Take time
             // to read.  
-
-
-
-
-
 
 
             //Q:  COULD you do all this in one class?  Yes, but there'd be a lot of complexity.  The parallelogram is simple, 
@@ -76,21 +73,7 @@ namespace GeometricShapesConsole {
              -So, you would HAVE to use a library?
 
             Some methods of a class are inherited.  Not in their source, but you can still use them.  Might be from base class, or base class's base class.
-
-
     */
-
-        }
-
-
-        static void Main(string[] args) {
-
-            var pgm = new Program(); // creating instatnce of my program calss  class
-            pgm.Run();
-
-
-
-
 
         }
     }
